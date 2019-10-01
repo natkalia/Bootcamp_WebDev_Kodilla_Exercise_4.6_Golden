@@ -4,4 +4,22 @@
   padding: 0;
   margin: 0;
 }
+
+/*Navigation*/
+.row {
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+
+.list-item {
+  display: inline-block;
+}
+
+.navbar {
+  list-style: none;
+}
+
+.list-item a {
+  text-decoration: none;
+}
 /*# sourceMappingURL=style.css.map */
