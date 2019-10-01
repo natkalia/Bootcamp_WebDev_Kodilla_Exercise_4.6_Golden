@@ -5,22 +5,22 @@
   margin: 0;
 }
 
+.list-item {
+  display: inline-block;
+}
+
+.list-item a {
+  text-decoration: none;
+}
+
 /*Navigation*/
 .row {
   -ms-flex-pack: justify;
       justify-content: space-between;
 }
 
-.list-item {
-  display: inline-block;
-}
-
 .navbar {
   list-style: none;
-}
-
-.list-item a {
-  text-decoration: none;
 }
 
 /*Header*/
