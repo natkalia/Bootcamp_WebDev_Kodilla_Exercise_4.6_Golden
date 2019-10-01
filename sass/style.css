@@ -21,3 +21,16 @@
 .list-item a {
   text-decoration: none;
 }
+
+/*Header*/
+.header {
+  height: 100vh;
+  display: flex;
+  background-color: black;
+}
+
+.header-inner {
+  margin: auto;
+  text-align: center;
+  color: white;
+}
