@@ -19,7 +19,7 @@
       justify-content: space-between;
 }
 
-.navbar {
+.navigationavbar {
   list-style: none;
 }
 
@@ -34,6 +34,27 @@
 .header-inner {
   margin: auto;
   text-align: center;
+  color: white;
+}
+
+/*Footer*/
+.footer-area {
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.footer-area a {
+  font-size: 0;
+}
+
+.footer-area i {
+  font-size: 30px;
+  text-align: center;
+  padding: 15px;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: black;
   color: white;
 }
 /*# sourceMappingURL=style.css.map */
