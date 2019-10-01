@@ -14,7 +14,7 @@
 }
 
 /*Navigation*/
-.row {
+.navigation .row {
   -ms-flex-pack: justify;
       justify-content: space-between;
 }
