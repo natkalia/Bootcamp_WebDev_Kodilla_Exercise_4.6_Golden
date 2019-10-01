@@ -37,7 +37,7 @@
   margin-bottom: 48px;
   & a {
     font-size: 0;
-  } 
+  }
   & i {
     font-size: 30px;
     text-align: center;
@@ -47,5 +47,13 @@
     border-radius: 50%;
     background-color: black;
     color: white;
+  }
+}
+
+.footer-copyright {
+  align-items: center;
+  & p {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }

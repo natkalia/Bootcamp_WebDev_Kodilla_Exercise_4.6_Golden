@@ -51,3 +51,7 @@
   background-color: black;
   color: white;
 }
+
+.footer-copyright {
+  justify-content: center;
+}

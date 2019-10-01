@@ -53,4 +53,14 @@
   background-color: black;
   color: white;
 }
+
+.footer-copyright {
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.footer-copyright p {
+  padding-left: 15px;
+  padding-right: 15px;
+}
 /*# sourceMappingURL=style.css.map */
