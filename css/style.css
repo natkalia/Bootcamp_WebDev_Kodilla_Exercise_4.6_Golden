@@ -24,13 +24,14 @@
   height: 100vh;
   display: -ms-flexbox;
   display: flex;
-  background-color: black;
+  background: url("https://images.pexels.com/photos/750870/pexels-photo-750870.jpeg");
 }
 
 .header-inner {
   margin: auto;
   text-align: center;
   color: white;
+  line-height: 2;
 }
 
 /*Footer*/
