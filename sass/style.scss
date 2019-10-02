@@ -28,6 +28,7 @@ $font-four: "Lobster Two", cursive;
 }
 
 .section-description {
+  margin-bottom: 96px;
   & .page-subtitle {
     font-size: 40px;
     letter-spacing: -1px;
@@ -136,9 +137,6 @@ $font-four: "Lobster Two", cursive;
     background-color: $color-light;
     color: $color-yellow;
     margin-bottom: 24px;
-  }
-  & .row {
-    margin-top: 96px;
   }
 }
 

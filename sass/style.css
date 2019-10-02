@@ -14,6 +14,10 @@
   text-decoration: none;
 }
 
+.section-description {
+  margin-bottom: 96px;
+}
+
 .section-description .page-subtitle {
   font-size: 40px;
   letter-spacing: -1px;
@@ -131,10 +135,6 @@
   background-color: #fff;
   color: #fed136;
   margin-bottom: 24px;
-}
-
-.services .row {
-  margin-top: 96px;
 }
 
 .box-outer .box-title {
