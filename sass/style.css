@@ -49,8 +49,6 @@
   height: 100vh;
   position: relative;
   background-image: url("../assets/background-image.png");
-  background-position: center center;
-  background-size: cover;
 }
 
 .header-navigation {
@@ -79,12 +77,8 @@
 }
 
 .header-welcome {
-  position: absolute;
-  width: 100%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 20px;
+  margin-left: 78px;
+  margin-top: 40px;
   color: #fff;
   font-size: 36px;
   text-align: center;
@@ -109,6 +103,7 @@
   font-weight: 700;
   font-style: normal;
   letter-spacing: -2px;
+  display: inline-block;
 }
 
 .header-welcome .button {
