@@ -189,8 +189,8 @@ $font-four: "Lobster Two", cursive;
   color: $color-mediumgrey;
   font-family: $font-one;
   font-weight: 700;
+  letter-spacing: -0.5px;
   & p {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 100px;
   }
 }
