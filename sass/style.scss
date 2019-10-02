@@ -135,7 +135,7 @@ $font-four: "Lobster Two", cursive;
 
 /*Services*/
 .services {
-    margin: 96px auto;
+    margin: 36px auto;
     text-align: center;
   & i {
     font-size: 20px;
@@ -147,6 +147,9 @@ $font-four: "Lobster Two", cursive;
     border: solid 5px $color-yellow;
     background-color: $color-light;
     color: $color-yellow;
+  }
+  & .row {
+    margin-top: 76px;
   }
 }
 

@@ -127,7 +127,7 @@
 
 /*Services*/
 .services {
-  margin: 96px auto;
+  margin: 36px auto;
   text-align: center;
 }
 
@@ -141,6 +141,10 @@
   border: solid 5px #fed136;
   background-color: #fff;
   color: #fed136;
+}
+
+.services .row {
+  margin-top: 76px;
 }
 
 /*Portfolio*/
