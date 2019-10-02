@@ -1,7 +1,8 @@
 /*Variables*/
 $color-light: white;
-$color-medium: #555555;
-$color-dark: black;
+$color-lightgrey: #777777;
+$color-mediumgrey: #555555;
+$color-darkgrey: #222222;
 $color-yellow: #fed136;
 $font-one: "Montserrat", sans-serif;
 $font-two: "Roboto Slab", serif;
@@ -22,6 +23,23 @@ $font-four: "Lobster Two", cursive;
 
 .list-item a {
   text-decoration: none;
+}
+
+.section-description {
+  & .page-subtitle {
+    font-size: 40px;
+    letter-spacing: -1px;
+    color: $color-darkgrey;
+    font-family: $font-one;
+    font-weight: 700;
+  }
+  & p {
+    font-size: 16px;
+    color: $color-lightgrey;
+    font-family: $font-three;
+    font-weight: 400;
+    font-style: italic;
+  }
 }
 
 /*Navigation*/
@@ -128,7 +146,7 @@ $font-four: "Lobster Two", cursive;
     width: 60px;
     border-radius: 50%;
     background-color: black;
-    color: $color-light
+    color: $color-light;
   }
 }
 
