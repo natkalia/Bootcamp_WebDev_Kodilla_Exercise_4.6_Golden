@@ -35,6 +35,8 @@
   height: 100vh;
   position: relative;
   background-image: url("../assets/background-image.png");
+  background-size: cover;
+  background-position: center 100%;
 }
 
 .header-navigation {
@@ -116,7 +118,7 @@
 
 /*Services*/
 .services {
-  margin: 36px auto;
+  margin: 96px auto;
   text-align: center;
 }
 

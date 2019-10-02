@@ -49,6 +49,8 @@ $font-four: "Lobster Two", cursive;
   height: 100vh;
   position: relative;
   background-image: url("../assets/background-image.png");
+  background-size: cover;
+  background-position: center 100%;
 }
 
 .header-navigation {
@@ -120,7 +122,7 @@ $font-four: "Lobster Two", cursive;
 
 /*Services*/
 .services {
-    margin: 36px auto;
+    margin: 96px auto;
     text-align: center;
   & i {
     font-size: 20px;
