@@ -44,21 +44,6 @@ $font-four: "Lobster Two", cursive;
   }
 }
 
-.box-outer {
-  & .box-title {
-    font-size: 18px;
-    color: $color-darkgrey;
-    font-family: $font-one;
-    font-weight: 700;
-  }
-  & .box-wording {
-    font-size: 14px;
-    color: $color-lightgrey;
-    font-family: $font-two;
-    font-weight: 400;
-  }
-}
-
 /*Navigation*/
 .header {
   height: 100vh;
@@ -140,16 +125,35 @@ $font-four: "Lobster Two", cursive;
   & i {
     font-size: 20px;
     text-align: center;
-    padding: 15px;
-    height: 60px;
-    width: 60px;
+    padding: 16px;
+    height: 65px;
+    width: 65px;
     border-radius: 50%;
-    border: solid 5px $color-yellow;
+    border: solid 3px $color-yellow;
     background-color: $color-light;
     color: $color-yellow;
+    margin-bottom: 24px;
   }
   & .row {
-    margin-top: 76px;
+    margin-top: 48px;
+    margin-left: 54px;
+    margin-right: 54px;
+  }
+}
+
+.box-outer {
+  padding: 40px;
+  & .box-title {
+    font-size: 18px;
+    color: $color-darkgrey;
+    font-family: $font-one;
+    font-weight: 700;
+  }
+  & .box-wording {
+    font-size: 14px;
+    color: $color-lightgrey;
+    font-family: $font-two;
+    font-weight: 400;
   }
 }
 

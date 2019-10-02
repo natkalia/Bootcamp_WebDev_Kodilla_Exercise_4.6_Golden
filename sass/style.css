@@ -30,20 +30,6 @@
   font-style: italic;
 }
 
-.box-outer .box-title {
-  font-size: 18px;
-  color: #222222;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-}
-
-.box-outer .box-wording {
-  font-size: 14px;
-  color: #777777;
-  font-family: "Roboto Slab", serif;
-  font-weight: 400;
-}
-
 /*Navigation*/
 .header {
   height: 100vh;
@@ -134,17 +120,38 @@
 .services i {
   font-size: 20px;
   text-align: center;
-  padding: 15px;
-  height: 60px;
-  width: 60px;
+  padding: 16px;
+  height: 65px;
+  width: 65px;
   border-radius: 50%;
-  border: solid 5px #fed136;
+  border: solid 3px #fed136;
   background-color: #fff;
   color: #fed136;
+  margin-bottom: 24px;
 }
 
 .services .row {
-  margin-top: 76px;
+  margin-top: 48px;
+  margin-left: 54px;
+  margin-right: 54px;
+}
+
+.box-outer {
+  padding: 40px;
+}
+
+.box-outer .box-title {
+  font-size: 18px;
+  color: #222222;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.box-outer .box-wording {
+  font-size: 14px;
+  color: #777777;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
 }
 
 /*Portfolio*/
