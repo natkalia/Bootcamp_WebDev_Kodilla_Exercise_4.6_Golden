@@ -137,6 +137,10 @@
   margin-bottom: 24px;
 }
 
+.box-outer {
+  padding: 30px;
+}
+
 .box-outer .box-title {
   font-size: 18px;
   color: #222222;
@@ -161,6 +165,17 @@
   padding: 96px 0;
   text-align: center;
   background-color: #f7f7f7;
+}
+
+.portfolio .box-image {
+  width: 100%;
+  height: 100%;
+}
+
+.portfolio .portfolio-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 /*Footer*/
