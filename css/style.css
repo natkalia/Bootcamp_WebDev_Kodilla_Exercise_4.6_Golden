@@ -95,6 +95,10 @@
 }
 
 /*Services*/
+.services {
+  text-align: center;
+}
+
 .services i {
   font-size: 20px;
   text-align: center;
