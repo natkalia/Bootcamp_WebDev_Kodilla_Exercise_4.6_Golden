@@ -135,7 +135,7 @@ $font-four: "Lobster Two", cursive;
 
 /*Portfolio*/
 .portfolio {
-  margin: 96px auto;
+  margin: 96px auto 24px auto;
   padding: 96px 0;
   text-align: center;
   background-color: $color-medium;
@@ -143,8 +143,7 @@ $font-four: "Lobster Two", cursive;
 
 /*Footer*/
 .footer-area {
-  margin-top: 48px;
-  margin-bottom: 48px;
+  margin-bottom: 24px;
   & a {
     font-size: 0;
   }

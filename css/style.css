@@ -130,7 +130,7 @@
 
 /*Portfolio*/
 .portfolio {
-  margin: 96px auto;
+  margin: 96px auto 24px auto;
   padding: 96px 0;
   text-align: center;
   background-color: #f7f7f7;
@@ -138,8 +138,7 @@
 
 /*Footer*/
 .footer-area {
-  margin-top: 48px;
-  margin-bottom: 48px;
+  margin-bottom: 24px;
 }
 
 .footer-area a {
