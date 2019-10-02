@@ -179,6 +179,7 @@ $font-four: "Lobster Two", cursive;
       color: $color-darkgrey;
       font-family: $font-one;
       font-weight: 700;
+      margin: 10px 0;
     }
     & .box-wording {
       font-size: 14px;
@@ -197,6 +198,11 @@ $font-four: "Lobster Two", cursive;
 
   & .box-image {
     flex: 1 1 33.3333%;
+  }
+
+  & .box-description {
+    background-color: $color-light;
+    padding: 20px 0;
   }
 
 }

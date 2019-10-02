@@ -181,6 +181,7 @@
   color: #222222;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
+  margin: 10px 0;
 }
 
 .portfolio .box-outer .box-wording {
@@ -199,6 +200,11 @@
 
 .portfolio .box-image {
   flex: 1 1 33.3333%;
+}
+
+.portfolio .box-description {
+  background-color: #fff;
+  padding: 20px 0;
 }
 
 /*Footer*/
