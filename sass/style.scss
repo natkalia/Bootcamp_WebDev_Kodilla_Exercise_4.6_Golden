@@ -44,6 +44,15 @@ $font-four: "Lobster Two", cursive;
   }
 }
 
+.box-outer {
+  & .box-title {
+    font-size: 18px;
+    color: $color-darkgrey;
+    font-family: $font-one;
+    font-weight: 700;
+  }
+}
+
 /*Navigation*/
 .header {
   height: 100vh;
