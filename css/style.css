@@ -53,12 +53,17 @@
   background-size: cover;
 }
 
+.header-navigation {
+  padding: 50px 0;
+  margin-right: 20px;
+}
+
 .header-navigation .logo-title {
   font-family: "Lobster Two", cursive;
   color: #fed136;
   font-style: italic;
   font-size: 26px;
-  line-height: 41px;
+  margin-left: 176px;
 }
 
 .header-navigation .list-item a {
@@ -66,7 +71,7 @@
   font-size: 14px;
   color: #fff;
   font-weight: 400;
-  text-align: center;
+  margin-right: 30px;
 }
 
 .header-navigation .row {

@@ -69,19 +69,21 @@ $font-four: "Lobster Two", cursive;
 }
 
 .header-navigation {
+  padding: 50px 0;
+  margin-right: 20px;
   & .logo-title {
     font-family: $font-four;
     color: $color-yellow;
     font-style: italic;
     font-size: 26px;
-    line-height: 41px;
+    margin-left: 176px;
   }
   & .list-item a {
     font-family: $font-one;
     font-size: 14px;
     color: $color-light;
     font-weight: 400;
-    text-align: center;
+    margin-right: 30px;
   }
   & .row {
     justify-content: space-between;
