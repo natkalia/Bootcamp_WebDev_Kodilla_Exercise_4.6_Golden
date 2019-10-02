@@ -51,6 +51,12 @@ $font-four: "Lobster Two", cursive;
     font-family: $font-one;
     font-weight: 700;
   }
+  & .box-wording {
+    font-size: 14px;
+    color: #lightgrey;
+    font-family: $font-two;
+    font-weight: 400;
+  }
 }
 
 /*Navigation*/

@@ -37,6 +37,13 @@
   font-weight: 700;
 }
 
+.box-outer .box-wording {
+  font-size: 14px;
+  color: #lightgrey;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+}
+
 /*Navigation*/
 .header {
   height: 100vh;
