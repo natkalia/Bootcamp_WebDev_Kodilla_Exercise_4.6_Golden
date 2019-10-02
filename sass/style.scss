@@ -5,6 +5,7 @@ $color-lightgrey: #777777;
 $color-mediumgrey: #555555;
 $color-darkgrey: #222222;
 $color-yellow: #fed136;
+
 $font-one: "Montserrat", sans-serif;
 $font-two: "Roboto Slab", serif;
 $font-three: "Droid Serif", sans-serif;
@@ -104,7 +105,7 @@ $font-four: "Lobster Two", cursive;
     display: inline-block;
     font-size: 18px;
     font-family: $font-one;
-    font-weight: bold;
+    font-weight: 700;
     color: inherit;
     height: 65px;
     width: 240px;
