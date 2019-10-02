@@ -89,8 +89,11 @@ $font-four: "Lobster Two", cursive;
 }
 
 .header-welcome {
-  margin-left: 78px;
-  margin-top: 40px;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: $color-light;
   font-size: 36px;
   text-align: center;
@@ -111,6 +114,7 @@ $font-four: "Lobster Two", cursive;
       font-style: normal; 
       letter-spacing: -2px;
       display: inline-block;
+      margin: 30px 0;
     }
   }
   & .button {
