@@ -183,7 +183,9 @@ $font-four: "Lobster Two", cursive;
     & .box-wording {
       font-size: 14px;
       color: $color-lightgrey;
-      font-family: $font-two;
+      font-family: $font-three;
+      font-weight: 400;
+      font-style: italic;
     }
   }
   

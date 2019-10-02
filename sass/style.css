@@ -186,7 +186,9 @@
 .portfolio .box-outer .box-wording {
   font-size: 14px;
   color: #777777;
-  font-family: "Roboto Slab", serif;
+  font-family: "Droid Serif", sans-serif;
+  font-weight: 400;
+  font-style: italic;
 }
 
 .portfolio .portfolio-image {
