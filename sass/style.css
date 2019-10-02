@@ -155,6 +155,10 @@
 
 .footer-copyright {
   align-items: center;
+  font-size: 14px;
+  color: #555555;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
 }
 
 .footer-copyright p {

@@ -161,6 +161,10 @@ $font-four: "Lobster Two", cursive;
 
 .footer-copyright {
   align-items: center;
+  font-size: 14px;
+  color: $color-mediumgrey;
+  font-family: $font-one;
+  font-weight: 400;
   & p {
     padding-left: 15px;
     padding-right: 15px;
