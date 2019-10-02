@@ -1,5 +1,6 @@
 /*Variables*/
-$color-light: white;
+$color-light: #fff;
+$color-medium: #f7f7f7;
 $color-lightgrey: #777777;
 $color-mediumgrey: #555555;
 $color-darkgrey: #222222;
@@ -117,6 +118,7 @@ $font-four: "Lobster Two", cursive;
 
 /*Services*/
 .services {
+    margin: 96px auto;
     text-align: center;
   & i {
     font-size: 20px;
@@ -129,6 +131,14 @@ $font-four: "Lobster Two", cursive;
     background-color: $color-light;
     color: $color-yellow;
   }
+}
+
+/*Portfolio*/
+.portfolio {
+  margin: 96px auto;
+  padding: 96px 0;
+  text-align: center;
+  background-color: $color-medium;
 }
 
 /*Footer*/
