@@ -245,6 +245,11 @@ $font-four: "Lobster Two", cursive;
   /*Global*/
   .section-description {
     margin-bottom: 24px;
+    & .page-subtitle {
+      font-size: 28px;
+      line-height: 75px;
+    }
+
   }
   /*Services*/
   .services {
@@ -253,8 +258,8 @@ $font-four: "Lobster Two", cursive;
       margin: 20px 0;
     }   
     & .row {
-      margin-right: 20px;
-      margin-left: 20px;
+      margin-right: 15px;
+      margin-left: 15px;
     }
   }
   /*Portfolio*/
@@ -265,8 +270,8 @@ $font-four: "Lobster Two", cursive;
       margin: 20px 0;
     }  
     & .row {
-      margin-right: 20px;
-      margin-left: 20px;
+      margin-right: 15px;
+      margin-left: 15px;
     }
   }
 }

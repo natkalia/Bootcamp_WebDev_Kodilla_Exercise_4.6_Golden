@@ -253,6 +253,10 @@
   .section-description {
     margin-bottom: 24px;
   }
+  .section-description .page-subtitle {
+    font-size: 28px;
+    line-height: 75px;
+  }
   /*Services*/
   .services {
     margin: 36px auto;
@@ -261,8 +265,8 @@
     margin: 20px 0;
   }
   .services .row {
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
   }
   /*Portfolio*/
   .portfolio {
@@ -273,7 +277,7 @@
     margin: 20px 0;
   }
   .portfolio .row {
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
   }
 }
