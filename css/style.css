@@ -47,6 +47,7 @@
 
 .header-navigation {
   padding-top: 24px;
+  margin-right: 20px;
 }
 
 .header-navigation .logo-title {
@@ -59,6 +60,7 @@
 
 .header-navigation .navbar {
   text-align: right;
+  padding-right: 50px;
 }
 
 .header-navigation .list-item a {
@@ -66,7 +68,7 @@
   font-size: 14px;
   color: #fff;
   font-weight: 400;
-  margin: 0 25px 0 25px;
+  margin: auto 36px auto 0;
 }
 
 .header-welcome {
