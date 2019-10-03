@@ -274,6 +274,19 @@ $font-four: "Lobster Two", cursive;
       margin-left: 15px;
     }
   }
+  /*Footer*/
+  .footer-area {
+    & .row {
+     text-align: center;
+    }
+    & .footer-copyright {
+      padding: 10px 0;
+      order: 2;
+    }
+    & .footer-icons {
+      order: 1;
+    }
+  }
 }
 
 

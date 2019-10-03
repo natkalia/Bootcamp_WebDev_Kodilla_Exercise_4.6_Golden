@@ -280,4 +280,15 @@
     margin-right: 15px;
     margin-left: 15px;
   }
+  /*Footer*/
+  .footer-area .row {
+    text-align: center;
+  }
+  .footer-area .footer-copyright {
+    padding: 10px 0;
+    order: 2;
+  }
+  .footer-area .footer-icons {
+    order: 1;
+  }
 }
