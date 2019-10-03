@@ -259,6 +259,14 @@
   .section-description .page-subtitle {
     font-size: 28px;
   }
+  /*Header*/
+  .header-welcome .page-title {
+    font-size: 20px;
+  }
+  .header-welcome .page-title span {
+    font-size: 32px;
+    margin: 15px 15px;
+  }
   /*Services*/
   .services {
     margin: 36px auto;

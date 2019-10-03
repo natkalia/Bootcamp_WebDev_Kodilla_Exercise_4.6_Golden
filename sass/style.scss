@@ -252,6 +252,17 @@ $font-four: "Lobster Two", cursive;
     }
   }
 
+  /*Header*/
+  .header-welcome {
+    & .page-title {
+      font-size: 20px;
+      & span {
+        font-size: 32px;
+        margin: 15px 15px;
+      }
+    }
+  }
+
   /*Services*/
   .services {
     margin: 36px auto;
