@@ -264,4 +264,16 @@
     margin-right: 20px;
     margin-left: 20px;
   }
+  /*Portfolio*/
+  .portfolio {
+    margin: 36px auto;
+    padding: 36px 0;
+  }
+  .portfolio .box-outer {
+    margin: 20px 0;
+  }
+  .portfolio .row {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
 }
