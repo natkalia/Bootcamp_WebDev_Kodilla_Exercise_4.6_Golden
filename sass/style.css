@@ -255,7 +255,6 @@
   }
   .section-description .page-subtitle {
     font-size: 28px;
-    line-height: 75px;
   }
   /*Services*/
   .services {
@@ -290,5 +289,38 @@
   }
   .footer-area .footer-icons {
     order: 1;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /*Global*/
+  .section-description {
+    margin-bottom: 24px;
+  }
+  .section-description .page-subtitle {
+    font-size: 28px;
+  }
+  /*Services*/
+  .services {
+    margin: 36px auto;
+  }
+  .services .box-outer {
+    margin: 20px 0;
+  }
+  .services .row {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  /*Portfolio*/
+  .portfolio {
+    margin: 36px auto;
+    padding: 36px 0;
+  }
+  .portfolio .box-outer {
+    margin: 20px 0;
+  }
+  .portfolio .row {
+    margin-right: 15px;
+    margin-left: 15px;
   }
 }

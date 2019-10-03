@@ -241,16 +241,14 @@ $font-four: "Lobster Two", cursive;
 /* Media */
 @media (max-width: 767px) {
 
-
   /*Global*/
   .section-description {
     margin-bottom: 24px;
     & .page-subtitle {
       font-size: 28px;
-      line-height: 75px;
     }
-
   }
+
   /*Services*/
   .services {
     margin: 36px auto;
@@ -262,6 +260,7 @@ $font-four: "Lobster Two", cursive;
       margin-left: 15px;
     }
   }
+
   /*Portfolio*/
   .portfolio {
     margin: 36px auto;
@@ -274,6 +273,7 @@ $font-four: "Lobster Two", cursive;
       margin-left: 15px;
     }
   }
+
   /*Footer*/
   .footer-area {
     & .row {
@@ -287,8 +287,42 @@ $font-four: "Lobster Two", cursive;
       order: 1;
     }
   }
+
 }
 
-
 @media (min-width: 768px) and (max-width: 991px) {
+  /*Global*/
+  .section-description {
+    margin-bottom: 24px;
+    & .page-subtitle {
+      font-size: 28px;
+    }
+  }
+
+  /*Services*/
+  .services {
+    margin: 36px auto;
+    & .box-outer {
+      margin: 20px 0;
+    }   
+    & .row {
+      margin-right: 15px;
+      margin-left: 15px;
+    }
+  }
+
+  /*Portfolio*/
+  .portfolio {
+    margin: 36px auto;
+    padding: 36px 0;
+    & .box-outer {
+      margin: 20px 0;
+    }  
+    & .row {
+      margin-right: 15px;
+      margin-left: 15px;
+    }
+  }
+
+
 }
