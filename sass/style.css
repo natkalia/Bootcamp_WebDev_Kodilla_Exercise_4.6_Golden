@@ -172,11 +172,8 @@
   background-color: #f7f7f7;
 }
 
-.portfolio .row {
-  margin: 0;
-}
-
 .portfolio .box-outer {
+  display: flex;
   flex-direction: column;
   padding: 10px;
 }
@@ -199,17 +196,14 @@
 
 .portfolio .portfolio-image {
   width: 100%;
-  height: 100%;
+  height: 300px;
   object-fit: cover;
-}
-
-.portfolio .box-image {
-  flex: 1 1 33.3333%;
 }
 
 .portfolio .box-description {
   background-color: #fff;
   padding: 20px 0;
+  width: 100%;
 }
 
 /*Footer*/
