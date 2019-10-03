@@ -107,26 +107,30 @@ $font-four: "Lobster Two", cursive;
 
 /*Services*/
 .services {
-    margin: 96px auto;
-    text-align: center;
-    & .section-description {
-      margin-bottom: 48px;
-      & .page-subtitle {
-        font-size: 40px;
-        letter-spacing: -1px;
-        color: $color-darkgrey;
-        font-family: $font-one;
-        font-weight: 700;
-        line-height: 75px;
-      }
-      & p {
-        font-size: 16px;
-        color: $color-lightgrey;
-        font-family: $font-three;
-        font-weight: 400;
-        font-style: italic;
-      }
+  margin: 96px auto;
+  text-align: center;
+  & .row {
+    margin-right: 60px;
+    margin-left: 60px;
+  }
+  & .section-description {
+    margin-bottom: 72px;
+    & .page-subtitle {
+      font-size: 40px;
+      letter-spacing: -1px;
+      color: $color-darkgrey;
+      font-family: $font-one;
+      font-weight: 700;
+      line-height: 75px;
     }
+    & p {
+      font-size: 16px;
+      color: $color-lightgrey;
+      font-family: $font-three;
+      font-weight: 400;
+      font-style: italic;
+    }
+  }
   & i {
     font-size: 36px;
     text-align: center;
@@ -137,7 +141,6 @@ $font-four: "Lobster Two", cursive;
     border: solid 3px $color-yellow;
     background-color: $color-light;
     color: $color-yellow;
-    margin-bottom: 24px;
   }
   & .box-outer {
     flex-direction: column;
@@ -146,17 +149,18 @@ $font-four: "Lobster Two", cursive;
       color: $color-darkgrey;
       font-family: $font-one;
       font-weight: 700;
+      line-height: 75px;
+      letter-spacing: -0.45px;
     }
     & .box-wording {
       font-size: 14px;
       color: $color-lightgrey;
       font-family: $font-two;
       font-weight: 400;
-      margin-top: 15px;
-      line-height: 2;
-      letter-spacing: 0px;
-      padding: 0 30px;
-    }
+      letter-spacing: -0.35px;
+      line-height: 1.5;
+      padding:  0;
+   }
   }
 }
 
