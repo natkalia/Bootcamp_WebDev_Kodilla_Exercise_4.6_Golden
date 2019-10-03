@@ -208,6 +208,9 @@ $font-four: "Lobster Two", cursive;
 /*Footer*/
 .footer-area {
   margin-bottom: 24px;
+  & .footer-icons {
+    padding: 0;
+  }
   & a {
     font-size: 0;
   }
@@ -220,11 +223,14 @@ $font-four: "Lobster Two", cursive;
     border-radius: 50%;
     background-color: black;
     color: $color-light;
+    margin-right: 5px;
   }
 }
 
 .footer-copyright {
-  align-items: center;
+  display: inline-block;
+  text-align: center;
+  margin: auto;
   font-size: 14px;
   color: $color-mediumgrey;
   font-family: $font-one;

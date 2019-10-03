@@ -223,6 +223,10 @@
   margin-bottom: 24px;
 }
 
+.footer-area .footer-icons {
+  padding: 0;
+}
+
 .footer-area a {
   font-size: 0;
 }
@@ -236,11 +240,13 @@
   border-radius: 50%;
   background-color: black;
   color: #fff;
+  margin-right: 5px;
 }
 
 .footer-copyright {
-  -ms-flex-align: center;
-      align-items: center;
+  display: inline-block;
+  text-align: center;
+  margin: auto;
   font-size: 14px;
   color: #555555;
   font-family: "Montserrat", sans-serif;
