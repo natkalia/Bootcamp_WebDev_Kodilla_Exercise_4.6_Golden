@@ -40,13 +40,13 @@
   height: 100vh;
   position: relative;
   background-image: url("../assets/background-image.png");
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center;
 }
 
 .header-navigation {
-  padding: 50px 0;
-  margin-right: 20px;
+  padding-top: 24px;
 }
 
 .header-navigation .logo-title {
@@ -54,7 +54,11 @@
   color: #fed136;
   font-style: italic;
   font-size: 26px;
-  margin-left: 176px;
+  text-align: right;
+}
+
+.header-navigation .navbar {
+  text-align: right;
 }
 
 .header-navigation .list-item a {
@@ -62,15 +66,12 @@
   font-size: 14px;
   color: #fff;
   font-weight: 400;
-  margin-right: 30px;
-}
-
-.header-navigation .row {
-  justify-content: space-between;
+  margin: 0 25px 0 25px;
 }
 
 .header-welcome {
   position: absolute;
+  margin-top: 36px;
   width: 100%;
   top: 50%;
   left: 50%;
