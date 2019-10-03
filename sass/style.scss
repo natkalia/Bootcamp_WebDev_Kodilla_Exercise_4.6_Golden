@@ -27,6 +27,25 @@ $font-four: "Lobster Two", cursive;
   text-decoration: none;
 }
 
+.section-description {
+  margin-bottom: 72px;
+  & .page-subtitle {
+    font-size: 40px;
+    letter-spacing: -1px;
+    color: $color-darkgrey;
+    font-family: $font-one;
+    font-weight: 700;
+    line-height: 75px;
+  }
+  & p {
+    font-size: 16px;
+    color: $color-lightgrey;
+    font-family: $font-three;
+    font-weight: 400;
+    font-style: italic;
+  }
+}
+
 /*Navigation*/
 .header {
   height: 100vh;
@@ -111,24 +130,6 @@ $font-four: "Lobster Two", cursive;
   & .row {
     margin-right: 60px;
     margin-left: 60px;
-  }
-  & .section-description {
-    margin-bottom: 72px;
-    & .page-subtitle {
-      font-size: 40px;
-      letter-spacing: -1px;
-      color: $color-darkgrey;
-      font-family: $font-one;
-      font-weight: 700;
-      line-height: 75px;
-    }
-    & p {
-      font-size: 16px;
-      color: $color-lightgrey;
-      font-family: $font-three;
-      font-weight: 400;
-      font-style: italic;
-    }
   }
   & i {
     font-size: 36px;
