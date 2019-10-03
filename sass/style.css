@@ -15,7 +15,7 @@
 }
 
 .section-description {
-  margin-bottom: 96px;
+  margin-bottom: 48px;
 }
 
 .section-description .page-subtitle {
@@ -25,11 +25,12 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   margin-bottom: 10px;
+  line-height: 75px;
 }
 
 .section-description p {
   font-size: 16px;
-  color: #fff;
+  color: #777777;
   font-family: "Droid Serif", sans-serif;
   font-weight: 400;
   font-style: italic;
