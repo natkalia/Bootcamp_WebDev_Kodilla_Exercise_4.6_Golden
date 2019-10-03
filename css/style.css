@@ -176,12 +176,16 @@
   background-color: #f7f7f7;
 }
 
+.portfolio .row {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
 .portfolio .box-outer {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
       flex-direction: column;
-  padding: 10px;
 }
 
 .portfolio .box-outer .box-title {
@@ -189,7 +193,6 @@
   color: #222222;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  margin: 10px 0;
 }
 
 .portfolio .box-outer .box-wording {
@@ -211,6 +214,7 @@
   background-color: #fff;
   padding: 20px 0;
   width: 100%;
+  text-align: center;
 }
 
 /*Footer*/

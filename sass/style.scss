@@ -169,16 +169,19 @@ $font-four: "Lobster Two", cursive;
   padding: 96px 0;
   text-align: center;
   background-color: $color-medium;
+  & .row {
+    margin-left: 60px;
+    margin-right: 60px;
+
+  }
   & .box-outer {
     display: flex;
     flex-direction: column;
-    padding: 10px;
     & .box-title {
       font-size: 18px;
       color: $color-darkgrey;
       font-family: $font-one;
       font-weight: 700;
-      margin: 10px 0;
     }
     & .box-wording {
       font-size: 14px;
@@ -197,6 +200,7 @@ $font-four: "Lobster Two", cursive;
     background-color: $color-light;
     padding: 20px 0;
     width: 100%;
+    text-align: center;
   }
 }
 
