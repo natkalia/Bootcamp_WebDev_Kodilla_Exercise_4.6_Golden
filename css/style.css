@@ -29,7 +29,7 @@
 
 .section-description p {
   font-size: 16px;
-  color: #777777;
+  color: #fff;
   font-family: "Droid Serif", sans-serif;
   font-weight: 400;
   font-style: italic;
@@ -41,7 +41,7 @@
   position: relative;
   background-image: url("../assets/background-image.png");
   background-size: cover;
-  background-position: center 100%;
+  background-position: center;
 }
 
 .header-navigation {
@@ -94,6 +94,7 @@
   font-weight: 400;
   font-style: italic;
   letter-spacing: -1px;
+  z-index: 5;
 }
 
 .header-welcome .page-title span {
