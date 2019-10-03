@@ -257,6 +257,9 @@
   .services {
     margin: 36px auto;
   }
+  .services .box-outer {
+    margin: 20px 0;
+  }
   .services .row {
     margin-right: 20px;
     margin-left: 20px;

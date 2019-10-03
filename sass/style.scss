@@ -249,7 +249,9 @@ $font-four: "Lobster Two", cursive;
   /*Services*/
   .services {
     margin: 36px auto;
-   
+    & .box-outer {
+      margin: 20px 0;
+    }   
     & .row {
       margin-right: 20px;
       margin-left: 20px;
