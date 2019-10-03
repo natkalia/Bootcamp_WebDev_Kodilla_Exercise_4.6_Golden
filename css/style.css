@@ -14,28 +14,6 @@
   text-decoration: none;
 }
 
-.section-description {
-  margin-bottom: 48px;
-}
-
-.section-description .page-subtitle {
-  font-size: 40px;
-  letter-spacing: -1px;
-  color: #222222;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  margin-bottom: 10px;
-  line-height: 75px;
-}
-
-.section-description p {
-  font-size: 16px;
-  color: #777777;
-  font-family: "Droid Serif", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
 /*Navigation*/
 .header {
   height: 100vh;
@@ -127,6 +105,27 @@
 .services {
   margin: 96px auto;
   text-align: center;
+}
+
+.services .section-description {
+  margin-bottom: 48px;
+}
+
+.services .section-description .page-subtitle {
+  font-size: 40px;
+  letter-spacing: -1px;
+  color: #222222;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 75px;
+}
+
+.services .section-description p {
+  font-size: 16px;
+  color: #777777;
+  font-family: "Droid Serif", sans-serif;
+  font-weight: 400;
+  font-style: italic;
 }
 
 .services i {
