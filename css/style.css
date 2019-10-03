@@ -253,4 +253,20 @@
   font-weight: 700;
   letter-spacing: -0.5px;
 }
+
+/* Media */
+@media (max-width: 767px) {
+  /*Global*/
+  .section-description {
+    margin-bottom: 24px;
+  }
+  /*Services*/
+  .services {
+    margin: 36px auto;
+  }
+  .services .row {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
