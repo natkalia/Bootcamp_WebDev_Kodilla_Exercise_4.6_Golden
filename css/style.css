@@ -43,11 +43,12 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  padding-top: 20px;
 }
 
 .header-navigation {
-  padding-top: 24px;
-  margin-right: 20px;
+  text-align: right;
+  margin: 0 auto;
 }
 
 .header-navigation .logo-title {
@@ -55,12 +56,6 @@
   color: #fed136;
   font-style: italic;
   font-size: 26px;
-  text-align: right;
-}
-
-.header-navigation .navbar {
-  text-align: right;
-  padding-right: 50px;
 }
 
 .header-navigation .list-item a {
@@ -68,7 +63,10 @@
   font-size: 14px;
   color: #fff;
   font-weight: 400;
-  margin: auto 36px auto 0;
+}
+
+.header-navigation .list-item {
+  margin: 0 36px;
 }
 
 .header-welcome {
@@ -259,11 +257,24 @@
     font-size: 28px;
   }
   /*Header*/
+  .header-navigation .logo-title {
+    text-align: center;
+  }
+  .header-navigation .navbar {
+    padding: 30px 0;
+    margin: auto;
+  }
+  .header-navigation .navbar {
+    text-align: center;
+  }
+  .header-navigation .list-item {
+    margin: 5px 10px;
+  }
   .header-welcome .page-title {
-    font-size: 20px;
+    font-size: 18px;
   }
   .header-welcome .page-title span {
-    font-size: 32px;
+    font-size: 28px;
     margin: 15px 15px;
   }
   /*Services*/
@@ -311,6 +322,17 @@
   }
   .section-description .page-subtitle {
     font-size: 28px;
+  }
+  /*Header*/
+  .header-navigation .list-item {
+    margin: 20px;
+  }
+  .header-welcome .page-title {
+    font-size: 18px;
+  }
+  .header-welcome .page-title span {
+    font-size: 28px;
+    margin: 15px 15px;
   }
   /*Services*/
   .services {
