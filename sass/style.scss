@@ -66,15 +66,14 @@ $font-four: "Lobster Two", cursive;
     font-style: italic;
     font-size: 26px;
   }
-  & .list-item a {
-    font-family: $font-one;
-    font-size: 14px;
-    color: $color-light;
-    font-weight: 400;
-  }
-
   & .list-item {
     margin: 0 36px;
+    & a {
+      font-family: $font-one;
+      font-size: 14px;
+      color: $color-light;
+      font-weight: 400;
+    }
   }
 }
 
@@ -235,7 +234,6 @@ $font-four: "Lobster Two", cursive;
   letter-spacing: -0.5px;
 }
 
-
 /* Media */
 @media (max-width: 767px) {
 
@@ -312,7 +310,6 @@ $font-four: "Lobster Two", cursive;
       order: 1;
     }
   }
-
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
