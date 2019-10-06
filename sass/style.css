@@ -59,6 +59,10 @@
 }
 
 .header-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
   text-align: right;
   margin: 0 auto;
 }
