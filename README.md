@@ -1,13 +1,23 @@
 # Golden Studio
 Landing page created as exercise for Web Developer Bootcamp in Kodilla (Module 4.6)
 
-**Live:** [https://natkalia.github.io/Bootcamp_WebDev_Kodilla_Exercise_4.6_Golden/](https://natkalia.github.io/Bootcamp_WebDev_Kodilla_Exercise_4.6_Golden/)
+## Setup
+
+**Live:** [https://natkalia.github.io/golden-kodilla-4.6](https://natkalia.github.io/golden-kodilla-4.6)
+
+**Repository**: https://github.com/natkalia/golden-kodilla-4.6.git
+
+You can also **download a zip archive** or a **clone repository** from github page:
+```bash
+git clone https://github.com/natkalia/golden-kodilla-4.6.git
+```
+As it is a static page, just **open the index.html** file in your favourite web browser.
 	
-## Technologies
+## Technologies & tools
 Project is created with:
 * HTML
 * Sass for CSS
 * Bootstrap Grid System
-* npm task runner
+* custom npm task runner
 
  
