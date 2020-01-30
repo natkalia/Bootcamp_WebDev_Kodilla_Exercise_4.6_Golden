@@ -1,5 +1,9 @@
-# Golden Studio
+# Golden Studio :sunglasses:
 Landing page created as exercise for Web Developer Bootcamp in Kodilla (Module 4.6)
+
+## Teaser
+
+![golden](https://user-images.githubusercontent.com/49140572/73435957-ec0a6800-4349-11ea-8bca-001343a8724e.PNG)
 
 ## Setup
 
