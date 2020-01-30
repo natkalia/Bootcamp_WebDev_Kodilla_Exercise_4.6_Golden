@@ -5,7 +5,7 @@ Landing page created as exercise for Web Developer Bootcamp in Kodilla (Module 4
 
 **Live:** [https://natkalia.github.io/golden-kodilla-4.6](https://natkalia.github.io/golden-kodilla-4.6)
 
-**Repository**: https://github.com/natkalia/golden-kodilla-4.6.git
+**Repository**: https://github.com/natkalia/golden-kodilla-4.6
 
 You can also **download a zip archive** or a **clone repository** from github page:
 ```bash
